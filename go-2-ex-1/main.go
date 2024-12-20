@@ -32,5 +32,6 @@ func main() {
 
 	fmt.Println("Siblings Before:", me.NumberOfSiblings)
 	// TODO: imagine, you get a little brother or sister
+	me.NumberOfSiblings = me.NumberOfSiblings + 1
 	fmt.Println("Siblings After:", me.NumberOfSiblings)
 }
